@@ -42,13 +42,21 @@ Esses desafios ajudam a entender como ataques funcionam e como preveni-los.
 - Registrar aprendizados e evidências técnicas
 - Priorizar entendimento do risco e da mitigação
 
-## Público-alvo
+## Estrutura do Projeto
 
-Este repositório é indicado para:
-
-- Iniciantes em cibersegurança
-- Estudantes de desenvolvimento seguro
-- Profissionais que desejam praticar AppSec
+OWASP-JuiceShop-CybersecProject/
+├── README.md                  ← visão geral do projeto
+├── writeups/
+│   ├── 01-reconhecimento.md
+│   ├── 02-autenticacao-idor.md
+│   ├── 03-sql-injection.md
+│   ├── 04-xss.md
+│   └── 05-avancado.md
+├── scripts/
+│   └── sqli-extractor.py      ← se você escrever algo
+├── payloads/
+│   └── xss-payloads.txt
+└── relatorio-final.md
 
 ## Aviso legal
 
