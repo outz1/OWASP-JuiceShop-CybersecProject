@@ -85,7 +85,7 @@ http://localhost:3000
 
 ```
 OWASP-JuiceShop-CybersecProject/
-├── README.md                  ← visão geral do projeto
+├── README.md                  
 ├── writeups/
 │   ├── 01-reconhecimento.md
 │   ├── 02-autenticacao-idor.md
@@ -93,7 +93,7 @@ OWASP-JuiceShop-CybersecProject/
 │   ├── 04-xss.md
 │   └── 05-avancado.md
 ├── scripts/
-│   └── sqli-extractor.py      ← se você escrever algo
+│   └── sqli-extractor.py     
 ├── payloads/
 │   └── xss-payloads.txt
 └── relatorio-final.md
