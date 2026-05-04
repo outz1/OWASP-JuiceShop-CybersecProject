@@ -81,6 +81,9 @@ http://localhost:3000
 
 ## Estrutura do Projeto
 
+## Estrutura do Projeto
+
+```
 OWASP-JuiceShop-CybersecProject/
 ├── README.md                  ← visão geral do projeto
 ├── writeups/
@@ -94,6 +97,7 @@ OWASP-JuiceShop-CybersecProject/
 ├── payloads/
 │   └── xss-payloads.txt
 └── relatorio-final.md
+```
 
 ## Aviso legal
 
