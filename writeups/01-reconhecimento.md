@@ -23,6 +23,7 @@
 
 ## Rotas identificcadas com Burp
 
+```
 GET /rest/products/search?q= — campo de busca, altamente suspeito para SQLi
 GET /api/Challenges/?name=Score%20B... — lista de desafios da aplicação
 GET /api/Quantitys/ — endpoint de quantidades
@@ -30,7 +31,7 @@ GET /rest/admin/application-version — expõe versão da aplicação (retornou 
 GET /rest/admin/application-configuration — configuração do admin exposta!
 GET /rest/languages — idiomas disponíveis
 POST /socket.io/... — comunicação em tempo real via WebSocket
-
+```
 
 ## ENDPOINTS ADMINISTRATIVOS SEM AUTENTICAÇÃO
 
