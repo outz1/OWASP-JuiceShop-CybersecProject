@@ -23,6 +23,43 @@ O OWASP Juice Shop é um laboratório interativo que contém desafios reais base
 
 Esses desafios ajudam a entender como ataques funcionam e como preveni-los.
 
+## Como iniciar o projeto?
+#### Pré-requisitos
+
+- Node.js (versão 18 ou superior)
+- npm (geralmente já vem com o Node)
+- Docker (opcional)
+
+---
+
+### Método 1 — Usando Docker (mais simples)
+
+```bash
+docker run --rm -p 3000:3000 bkimminich/juice-shop
+```
+
+### Método 2 — Localmente com Nodejs
+
+```
+git clone https://github.com/juice-shop/juice-shop.git
+cd juice-shop
+
+#Instale as dependências:
+
+npm install
+
+#Inicie a aplicação:
+
+npm start
+
+#Acesse:
+
+http://localhost:3000
+
+```
+
+
+
 ## Estrutura de estudo sugerida
 
 1. Configurar e executar o ambiente local
